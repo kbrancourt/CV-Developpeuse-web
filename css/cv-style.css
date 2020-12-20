@@ -1,0 +1,49 @@
+body{
+    color: white;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+}
+/* .row{
+    border: 2px solid black;
+} */
+header{
+    font-family: 'Courgette', sans-serif; 
+    border-bottom: 2px solid white; 
+}
+.navbar{
+    background: #067790;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+    
+}
+
+nav li{
+    font-family: 'Oswald', sans-serif;
+
+}
+ #profil, #competences{
+    border-bottom: 2px solid white;
+}
+#profil div, #competences div{
+    padding: 20px 0;
+}
+.infos{
+    background: #067790;
+}
+.parcours{
+    background: coral;
+}
+.linkedin a{
+    color: white;
+}
+
+
