@@ -30,10 +30,10 @@ nav li{
     font-family: 'Oswald', sans-serif;
 
 }
- #profil, #competences{
+ #profil, #competences,#loisirs{
     border-bottom: 2px solid white;
 }
-#profil div, #competences div{
+#profil div, #competences div, #loisirs div{
     padding: 20px 0;
 }
 .infos{
@@ -42,8 +42,21 @@ nav li{
 .parcours{
     background: coral;
 }
+h3, h4{
+    background-color: white;
+    color: #067790;
+    margin: 0 100px;     
+}
 .linkedin a{
     color: white;
 }
-
-
+.fa-info-circle{
+    font-size: 30px;
+}
+.fa-chart-bar, .fa-paint-brush{
+    font-size: 30px;
+    background-color:  #067790;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
