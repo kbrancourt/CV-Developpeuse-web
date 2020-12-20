@@ -31,11 +31,11 @@ nav li{
 
 }
 /* ***************infos */
- #about, #competences,#loisirs{
+ #about, #competences{
     border-bottom: 2px solid white;
     background: #067790
 }
-#about div, #competences div, #loisirs div{
+#about div, #competences div{
     padding: 20px 30px;
 }
 
@@ -50,7 +50,7 @@ h4{
 .fa-info-circle{
     font-size: 30px;
 }
-.fa-chart-bar, .fa-paint-brush{
+.fa-chart-bar{
     font-size: 30px;
     background-color:  #067790;
     color: white;
@@ -62,11 +62,8 @@ h4{
     background: white;
     color: #067790;
 }
-#profil, #formations{
-    border-bottom: 2px solid #067790;
-    
-}
-#profil div, #formations div{
+
+#profil div, #formations div, #experiences div, #realisations div, #loisirs div{
     padding: 20px 30px;
 }
 
@@ -76,6 +73,22 @@ h4{
     height: 150px;
     margin: 20px 0;
 }
+#formations h4, #experiences h4, #realisations h4, #loisirs h4{
+    background-color: #067790;
+    color: white;
+    padding: 15px 35px; 
+}
 .bold{
     font-weight: bold;
+}
+
+.fa-graduation-cap, .fa-briefcase, .fa-code-branch, .fa-paint-brush{
+    font-size: 30px;
+    background-color:  white;
+    color: #067790;
+    border-radius: 50%;
+    padding: 5px;
+}
+#realisations a{
+    color: #067790;
 }
