@@ -30,22 +30,19 @@ nav li{
     font-family: 'Oswald', sans-serif;
 
 }
- #profil, #competences,#loisirs{
+/* ***************infos */
+ #about, #competences,#loisirs{
     border-bottom: 2px solid white;
+    background: #067790
 }
-#profil div, #competences div, #loisirs div{
-    padding: 20px 0;
+#about div, #competences div, #loisirs div{
+    padding: 20px 30px;
 }
-.infos{
-    background: #067790;
-}
-.parcours{
-    background: coral;
-}
-h3, h4{
+
+h4{
     background-color: white;
     color: #067790;
-    margin: 0 100px;     
+    padding: 15px 35px; 
 }
 .linkedin a{
     color: white;
@@ -58,5 +55,27 @@ h3, h4{
     background-color:  #067790;
     color: white;
     border-radius: 50%;
-    padding: 20px;
+    padding: 5px;
+}
+/* ******************parcours */
+.parcours{
+    background: white;
+    color: #067790;
+}
+#profil, #formations{
+    border-bottom: 2px solid #067790;
+    
+}
+#profil div, #formations div{
+    padding: 20px 30px;
+}
+
+#profil img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+.bold{
+    font-weight: bold;
 }
