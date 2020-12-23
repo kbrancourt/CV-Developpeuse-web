@@ -36,7 +36,7 @@ nav li{
     background: #067790
 }
 #about div, #competences div{
-    padding: 20px 30px;
+    padding: 25px 20px;
 }
 
 h4{
@@ -64,7 +64,7 @@ h4{
 }
 
 #profil div, #formations div, #experiences div, #realisations div, #loisirs div{
-    padding: 20px 30px;
+    padding: 15px 15px;
 }
 
 #profil img{
@@ -76,18 +76,25 @@ h4{
 #formations h4, #experiences h4, #realisations h4, #loisirs h4{
     background-color: #067790;
     color: white;
-    padding: 15px 35px; 
+    padding: 15px 30px; 
 }
 .bold{
     font-weight: bold;
 }
 
-.fa-graduation-cap, .fa-briefcase, .fa-code-branch, .fa-paint-brush{
+.fa-briefcase, .fa-paint-brush{
     font-size: 30px;
     background-color:  white;
     color: #067790;
     border-radius: 50%;
     padding: 5px;
+}
+.fa-graduation-cap,.fa-code-branch{
+    font-size: 25px;
+    background-color:  white;
+    color: #067790;
+    border-radius: 50%;
+    padding: 8px;
 }
 #realisations a{
     color: #067790;
