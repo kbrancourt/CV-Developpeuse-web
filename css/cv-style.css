@@ -28,15 +28,15 @@ header{
 
 nav li{
     font-family: 'Oswald', sans-serif;
-
 }
+
 /* ***************infos */
  #about, #competences{
     border-bottom: 2px solid white;
-    background: #067790
+    background: #067790;
 }
 #about div, #competences div{
-    padding: 25px 20px;
+    padding: 25px 35px;
 }
 
 h4{
@@ -44,6 +44,15 @@ h4{
     color: #067790;
     padding: 15px 35px; 
 }
+.fa-github,.fa-linkedin{
+    font-size: 30px;
+    color: white;
+    margin-right: 25px;
+}
+li:hover{
+    zoom: 50%;
+}
+
 .linkedin a{
     color: white;
 }
@@ -64,14 +73,26 @@ h4{
 }
 
 #profil div, #formations div, #experiences div, #realisations div, #loisirs div{
-    padding: 15px 15px;
+    padding: 10px 10px;
 }
-
+.job{
+    font-size: 25px;
+}
+.text-center{
+    font-size: 15px;
+    line-height: 16px;
+    padding: 0 35px;
+}
 #profil img{
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin: 20px 0;
+}
+
+p:hover{
+    background-color: #067790;
+    color: white;
 }
 #formations h4, #experiences h4, #realisations h4, #loisirs h4{
     background-color: #067790;
