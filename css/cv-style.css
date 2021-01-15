@@ -29,22 +29,24 @@ header{
 nav li{
     font-family: 'Oswald', sans-serif;
 }
-
+.nav-link:hover{
+    background-color: white;
+    color: #067790;
+}
 /* ***************infos */
  #about, #competences{
     border-bottom: 2px solid white;
     background: #067790;
 }
 #about div, #competences div{
-    padding: 25px 35px;
+    padding: 25px 30px;
 }
 
 h4{
-    background-color: white;
-    color: #067790;
-    padding: 15px 35px; 
+    color: white;
+    padding: 25px 30px; 
 }
-.fa-github,.fa-linkedin{
+.fa-github,.fa-linkedin,.fa-envelope{
     font-size: 30px;
     color: white;
     margin-right: 25px;
@@ -58,6 +60,7 @@ li:hover{
 }
 .fa-info-circle{
     font-size: 30px;
+    padding: 5px;
 }
 .fa-chart-bar{
     font-size: 30px;
@@ -73,7 +76,7 @@ li:hover{
 }
 
 #profil div, #formations div, #experiences div, #realisations div, #loisirs div{
-    padding: 10px 10px;
+    padding: 15px 25px 0px;
 }
 .job{
     font-size: 25px;
@@ -83,21 +86,20 @@ li:hover{
     line-height: 16px;
     padding: 0 35px;
 }
-/* #profil img{
+#profil .photo{
+    display:none;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 20px 0;
-} */
+    width: 100px;
+    height: 100px;
+} 
 #profil .logo{
     width: 300px;
     height: 300px;
     margin-bottom: 0 auto;
+    border-radius: 50%;
+
 }
-p:hover{
-    background-color: #067790;
-    color: white;
-}
+
 #formations h4, #experiences h4, #realisations h4, #loisirs h4{
     background-color: #067790;
     color: white;
@@ -107,7 +109,7 @@ p:hover{
     font-weight: bold;
 }
 
-.fa-briefcase, .fa-paint-brush{
+.fa-briefcase, .fa-paint-brush,.fa-arrow-circle-down{
     font-size: 30px;
     background-color:  white;
     color: #067790;
