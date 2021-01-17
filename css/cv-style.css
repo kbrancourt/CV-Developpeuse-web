@@ -46,18 +46,18 @@ h4{
     color: white;
     padding: 25px 30px; 
 }
-.fa-github,.fa-linkedin,.fa-envelope{
+.fa-github,.fa-linkedin,.fa-envelope, .fa-mobile{
     font-size: 30px;
     color: white;
     margin-right: 25px;
 }
-li:hover{
-    zoom: 50%;
+.icons:hover{
+    font-size: 40px;
 }
 
-.linkedin a{
+/* .linkedin a{
     color: white;
-}
+} */
 .fa-info-circle{
     font-size: 30px;
     padding: 5px;
