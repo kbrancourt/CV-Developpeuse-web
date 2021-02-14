@@ -39,7 +39,7 @@ nav li{
     background: #067790;
 }
 #about div, #competences div{
-    padding: 25px 30px;
+    padding: 22px 30px;
 }
 
 h4{
@@ -74,9 +74,14 @@ h4{
     background: white;
     color: #067790;
 }
-
+#mobileInfos{
+    display:none;
+}
 #profil div, #formations div, #experiences div, #realisations div, #loisirs div{
-    padding: 15px 25px 0px;
+    padding: 10px 20px ;
+}
+#profil img{
+    padding: 0 auto;
 }
 .job{
     font-size: 25px;
@@ -89,21 +94,18 @@ h4{
 #profil .photo{
     display:none;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+ 
 } 
 #profil .logo{
     width: 300px;
     height: 300px;
-    margin-bottom: 0 auto;
     border-radius: 50%;
-
 }
 
 #formations h4, #experiences h4, #realisations h4, #loisirs h4{
     background-color: #067790;
     color: white;
-    padding: 15px 30px; 
+    padding: 10px 30px; 
 }
 .bold{
     font-weight: bold;
@@ -125,4 +127,28 @@ h4{
 }
 #realisations a{
     color: #067790;
+}
+
+@media (max-width: 700px) {
+    #about div, #competences div{
+        display:none;
+    }
+        
+    #presentation{
+        display:none;
+    }
+    #mobileInfos{
+        display:block;
+        
+    }
+    #mobileInfos h5,#mobileInfos p{
+        font-size: 16px;
+    }
+    .job{
+        font-size: 22px;
+    }
+    #profil .photo{
+        width: 25px;
+        height: 25px;
+    } 
 }

@@ -6,7 +6,7 @@ $(document).ready(function(){
         //la photo apparait et disparait qd la souris n'est plus dessus
         mouseenter: function(){
            
-            $(".logo").attr("src", "../images/eedf04b7-25ca-469b-9714-618d520ddfab.jpg");  
+            $(".logo").attr("src", "../images/eedf04b7-25ca-469b-9714-618d520ddfab.jpg").css("width: 50px","heigth:50px");  
           },
         
         mouseleave: function(){

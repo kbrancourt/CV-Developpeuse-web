@@ -1,0 +1,34 @@
+body{
+    color: white;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+}
+
+#about div{
+    background: #067790;
+    padding: 100px 20px;
+    
+}
+.photo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+} 
+.fa-github,.fa-linkedin,.fa-envelope, .fa-mobile{
+    font-size: 30px;
+    color: white;
+    margin-right: 25px;
+}
+#motivation div{
+    background: white;
+    color: #067790;
+    padding: 16px 22px;
+}
+.text-justify{
+    padding: 0 16px;
+}
+.justify-content-end{
+    padding: 0 25px;
+}
