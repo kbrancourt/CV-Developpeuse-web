@@ -1,5 +1,6 @@
 body{
     color: white;
+    height: 100vh;
 }
 p{
     font-family: 'Oswald', sans-serif;
@@ -8,8 +9,11 @@ p{
 
 #about div{
     background: #067790;
-    padding: 100px 20px;
+    padding: 270px 20px 280px;
     
+}
+h5{
+    padding-top: 50px;
 }
 .photo{
     border-radius: 50%;
@@ -24,7 +28,13 @@ p{
 #motivation div{
     background: white;
     color: #067790;
-    padding: 16px 22px;
+    padding: 50px 22px;
+}
+.job{
+    padding-top: 16px;
+}
+.fa-star{
+    padding-top: 16px;
 }
 .text-justify{
     padding: 0 16px;

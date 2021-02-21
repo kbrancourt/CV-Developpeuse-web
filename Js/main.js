@@ -6,7 +6,7 @@ $(document).ready(function(){
         //la photo apparait et disparait qd la souris n'est plus dessus
         mouseenter: function(){
            
-            $(".logo").attr("src", "../images/eedf04b7-25ca-469b-9714-618d520ddfab.jpg").css("width: 50px","heigth:50px");  
+            $(".logo").attr("src", "../images/eedf04b7-25ca-469b-9714-618d520ddfab.jpg").css("width: 10%","heigth:10%");  
           },
         
         mouseleave: function(){
@@ -15,21 +15,3 @@ $(document).ready(function(){
     })
 })
 
-
-
-//faire montrer et cacher le texte de présentation
-
-$(document).ready(function(){
-//aller chercher l'ID ds html
-     $(".fleche").on({
-        //qd je survole le logo avec la souris
-        //la photo apparait et disparait qd la souris n'est plus dessus
-         mouseenter: function(){
-            $(".presentation").show();  
-          },
-        
-        mouseleave: function(){
-            $(".presentation").hide();
-          }, 
-    })
-})
